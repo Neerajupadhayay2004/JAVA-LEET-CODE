@@ -22,11 +22,20 @@ The repository contains individual Java solutions for problems involving:
 
 ## Java Practice Programs
 
-Recent beginner/DSA practice programs include:
+Beginner/DSA practice programs include:
 
 - `ReverseNumber.java` — reverse a number using `% 10` and `/ 10`
 - `ReverseAndSum.java` — reverse a number and calculate digit sum
 - `SumOfDigits.java` — calculate the sum of digits
+- `SumOfDigitsMethod.java` — sum of digits using a method
+- `CountDigits.java` — count the number of digits
+- `GCD.java` — find the greatest common divisor of two numbers
+- `LCM.java` — find the least common multiple of two numbers
+- `PerfectNumber.java` — check whether a number is a perfect number
+- `LargestDigit.java` — find the largest digit in a number
+- `EvenOddMethod.java` — check whether a number is even or odd using a method
+- `LargestAmongThreeMethod.java` — find the largest among three numbers using a method
+- `SumEvenDigits.java` — calculate the sum of all even digits
 - `ArmstrongNumber.java` — check whether a number is an Armstrong number
 - `LargestNumber.java` — find the largest among three numbers
 - `FibonacciSeries.java` — generate a Fibonacci series
@@ -63,11 +72,11 @@ The collection can continue to grow as new problems are solved.
 Compile and run any standalone program with:
 
 ```bash
-javac ReverseNumber.java
-java ReverseNumber
+javac GCD.java
+java GCD
 ```
 
-For example, the same pattern works for `ArmstrongNumber.java`, `FibonacciSeries.java`, `Student.java`, and the other practice programs.
+For example, the same pattern works for all other standalone Java practice programs.
 
 ## Recommended Practice Workflow
 
@@ -93,17 +102,24 @@ This repository is intended to strengthen:
 
 ```text
 JAVA-programing/
-├── *.java                         # Java practice and LeetCode solutions
-├── ReverseNumber.java             # Number reversal
-├── ReverseAndSum.java             # Reverse + digit sum
-├── SumOfDigits.java               # Digit sum
-├── ArmstrongNumber.java           # Armstrong number
-├── LargestNumber.java             # Largest of three
-├── FibonacciSeries.java           # Fibonacci series
-├── RepeatedDigits.java            # Repeated digit detection
-├── RepeatedDigits1To100.java      # Repeated digits from 1 to 100
-├── Student.java                   # Basic OOP practice
-└── README.md                      # Repository documentation
+├── GCD.java                         # GCD of two numbers
+├── LCM.java                         # LCM of two numbers
+├── CountDigits.java                 # Count digits
+├── SumOfDigitsMethod.java           # Sum of digits using method
+├── PerfectNumber.java               # Perfect number check
+├── LargestDigit.java                # Largest digit
+├── EvenOddMethod.java               # Even/odd using method
+├── LargestAmongThreeMethod.java     # Largest of three using method
+├── SumEvenDigits.java               # Sum of even digits
+├── ReverseNumber.java               # Number reversal
+├── ReverseAndSum.java               # Reverse + digit sum
+├── ArmstrongNumber.java             # Armstrong number
+├── LargestNumber.java               # Largest of three
+├── FibonacciSeries.java             # Fibonacci series
+├── RepeatedDigits.java              # Repeated digit detection
+├── RepeatedDigits1To100.java        # Repeated digits from 1 to 100
+├── Student.java                     # Basic OOP practice
+└── README.md                        # Repository documentation
 ```
 
 ## Author
