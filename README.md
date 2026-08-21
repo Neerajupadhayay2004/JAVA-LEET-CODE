@@ -1,166 +1,236 @@
-# Java Programming & DSA Practice 🚀
+# ☕ Java Programming & DSA Practice
 
-A structured collection of **Java programming, number-based problems, methods, OOP practice, DSA, and LeetCode solutions**.
+> A beginner-friendly collection of **Java Programming, Methods, Number Problems, OOP, DSA, and LeetCode solutions**.
 
-This repository is focused on building strong Java fundamentals and problem-solving skills through simple, beginner-friendly programs.
-
-## 📚 What This Repository Contains
-
-### Java Fundamentals
-- Variables and data types
-- Input using `Scanner`
-- Conditional statements
-- Loops
-- Methods
-- Number and digit-based problems
-- Basic OOP and classes
-
-### Number-Based Problems
-- GCD and LCM
-- Prime and Perfect numbers
-- Armstrong numbers
-- Digit counting and digit sums
-- Largest digit
-- Even/odd checking
-- Sum of even digits
-- Number reversal
-- Repeated digit problems
-- Fibonacci series
-
-### DSA & LeetCode
-- Arrays and strings
-- Hash maps and sets
-- Two-pointer techniques
-- Linked lists
-- Binary trees and BSTs
-- Dynamic programming
-- Backtracking
-- Matrix/grid problems
-- Stack and queue patterns
-- Greedy and optimization techniques
+This repository contains the Java programs I practice while building strong fundamentals in **logic building, problem solving, methods, loops, conditions, OOP, and Data Structures & Algorithms**.
 
 ---
 
-## 🧮 Java Practice Programs
+## 🚀 What You'll Find Here
 
-| Program | Description |
-|---|---|
-| `GCD.java` | Find the greatest common divisor of two numbers |
-| `LCM.java` | Find the least common multiple of two numbers |
-| `CountDigits.java` | Count the number of digits in a number |
-| `SumOfDigits.java` | Calculate the sum of digits |
-| `SumOfDigitsMethod.java` | Calculate digit sum using a method |
-| `PerfectNumber.java` | Check whether a number is a perfect number |
-| `PerfectNumberMethod.java` | Check perfect number using a method |
-| `PrimeNumberMethod.java` | Check whether a number is prime using a method |
-| `MultiplicationTableMethod.java` | Print multiplication table using a method |
-| `LargestDigit.java` | Find the largest digit in a number |
-| `EvenOddMethod.java` | Check whether a number is even or odd using a method |
-| `LargestAmongThreeMethod.java` | Find the largest among three numbers using a method |
-| `SumEvenDigits.java` | Calculate the sum of all even digits |
-| `ReverseNumber.java` | Reverse a number using `% 10` and `/ 10` |
-| `ReverseAndSum.java` | Reverse a number and calculate its digit sum |
-| `ArmstrongNumber.java` | Check whether a number is an Armstrong number |
-| `LargestNumber.java` | Find the largest among three numbers |
-| `FibonacciSeries.java` | Generate a Fibonacci series |
-| `RepeatedDigits.java` | Detect repeated digits in a number |
-| `RepeatedDigits1To100.java` | Find numbers from 1 to 100 containing repeated digits |
-| `Student.java` | Basic class, constructor, methods, objects, and user input |
+- ☕ Java Programming Fundamentals
+- 🔢 Number & Digit Problems
+- 🧩 Java Methods Practice
+- 🏗️ Object-Oriented Programming
+- 🧠 DSA Problem Solving
+- 💻 LeetCode Solutions
+- 📈 Coding Interview Preparation
 
 ---
 
-## 🔢 Methods Practice
+## 📚 Java Fundamentals
 
-The repository also contains programs specifically designed to practice **Java methods**:
+Practice programs covering:
 
-1. Check whether a number is **prime or not** — `PrimeNumberMethod.java`
-2. Print the **multiplication table** of a number — `MultiplicationTableMethod.java`
-3. Check whether a number is a **perfect number** — `PerfectNumberMethod.java`
-4. Check **even or odd** — `EvenOddMethod.java`
-5. Find the **largest among three numbers** — `LargestAmongThreeMethod.java`
-6. Calculate **sum of digits** — `SumOfDigitsMethod.java`
-
-These programs demonstrate how to move logic from `main()` into reusable methods.
+- Variables & Data Types
+- User Input using `Scanner`
+- `if-else` and conditional logic
+- `for`, `while`, and `do-while` loops
+- Methods and reusable logic
+- Basic OOP
+- Classes and Objects
+- Constructors
+- Number manipulation
+- Logical problem solving
 
 ---
 
-## 💡 Important Digit Logic
+## 🔢 Number-Based Programs
 
-Most number-based programs use two important operators:
+| # | Program | Concept |
+|---:|---|---|
+| 1 | `GCD.java` | GCD of two numbers |
+| 2 | `LCM.java` | LCM of two numbers |
+| 3 | `CountDigits.java` | Count digits |
+| 4 | `SumOfDigits.java` | Sum of digits |
+| 5 | `SumOfDigitsMethod.java` | Sum of digits using method |
+| 6 | `PerfectNumber.java` | Perfect number |
+| 7 | `PerfectNumberMethod.java` | Perfect number using method |
+| 8 | `PrimeNumberMethod.java` | Prime number using method |
+| 9 | `LargestDigit.java` | Largest digit |
+| 10 | `SumEvenDigits.java` | Sum of even digits |
+| 11 | `EvenOddMethod.java` | Even or odd using method |
+| 12 | `LargestAmongThreeMethod.java` | Largest of three using method |
+| 13 | `LargestNumber.java` | Largest among three numbers |
+| 14 | `ReverseNumber.java` | Reverse a number |
+| 15 | `ReverseAndSum.java` | Reverse + digit sum |
+| 16 | `ArmstrongNumber.java` | Armstrong number |
+| 17 | `FibonacciSeries.java` | Fibonacci series |
+| 18 | `RepeatedDigits.java` | Repeated digit detection |
+| 19 | `RepeatedDigits1To100.java` | Repeated digits from 1–100 |
 
-- `% 10` → gets the **last digit**
-- `/ 10` → removes the **last digit**
+---
 
-Example:
+## 🧩 Methods Practice
+
+These programs specifically focus on writing reusable Java methods:
+
+- `PrimeNumberMethod.java` → Check whether a number is prime
+- `MultiplicationTableMethod.java` → Print multiplication table
+- `PerfectNumberMethod.java` → Check whether a number is perfect
+- `EvenOddMethod.java` → Check even or odd
+- `LargestAmongThreeMethod.java` → Find largest of three numbers
+- `SumOfDigitsMethod.java` → Calculate sum of digits
+
+### Why Methods?
+
+Instead of putting all logic inside `main()`, a method allows us to write reusable logic:
+
+```java
+static boolean isPrime(int n) {
+    // logic
+}
+```
+
+Then we can simply call:
+
+```java
+isPrime(n);
+```
+
+This makes programs **cleaner, reusable, and easier to understand**.
+
+---
+
+## 💡 Important Number Logic
+
+Most digit-based problems use these two operators:
+
+### `% 10` → Get the last digit
 
 ```java
 int digit = n % 10;
+```
+
+Example:
+
+```text
+1234 % 10 = 4
+```
+
+### `/ 10` → Remove the last digit
+
+```java
 n = n / 10;
 ```
 
-For example, if `n = 1234`:
+Example:
 
 ```text
-1234 % 10 → 4
-1234 / 10 → 123
+1234 / 10 = 123
 ```
 
-This pattern is useful for digit count, digit sum, reverse number, largest digit, Armstrong number, and many other problems.
+### 🔄 Common Pattern
+
+```text
+Number
+   ↓
+Extract last digit (% 10)
+   ↓
+Process digit
+   ↓
+Remove last digit (/ 10)
+   ↓
+Repeat until number becomes 0
+```
+
+This pattern is used in:
+
+- Count Digits
+- Sum of Digits
+- Largest Digit
+- Sum of Even Digits
+- Reverse Number
+- Armstrong Number
+- Repeated Digit Problems
 
 ---
 
-## ▶️ How to Run
+## 🧠 DSA & LeetCode
 
-Make sure Java/JDK is installed.
+The repository also contains solutions for common DSA patterns:
 
-Compile a program:
+### Arrays & Strings
+- Array manipulation
+- String problems
+- Searching
+- Sorting
+
+### Hashing
+- HashMap
+- HashSet
+- Frequency counting
+
+### Two Pointers
+- Pair problems
+- Array optimization
+- String problems
+
+### Linked Lists
+- Traversal
+- Insertion/deletion
+- Reversal
+
+### Trees
+- Binary Trees
+- Binary Search Trees
+- Tree traversal
+
+### Dynamic Programming
+- Basic DP problems
+- Optimization problems
+
+### Other Patterns
+- Stack & Queue
+- Greedy
+- Backtracking
+- Matrix/Grid problems
+
+---
+
+## ▶️ How to Run Java Programs
+
+### 1. Check Java installation
+
+```bash
+java -version
+```
+
+### 2. Compile a program
 
 ```bash
 javac PrimeNumberMethod.java
 ```
 
-Run it:
+### 3. Run the program
 
 ```bash
 java PrimeNumberMethod
 ```
 
-The same pattern works for all standalone `.java` files.
+The same process can be used for any standalone `.java` file.
 
 ---
 
-## 🧠 Recommended Practice Workflow
+## 📝 Example
 
-1. Read the problem carefully.
-2. Understand the logic before looking at the code.
-3. Identify whether a loop, condition, or method is required.
-4. Write the logic yourself.
-5. Test with normal and edge-case inputs.
-6. Check the output.
-7. Analyze time and space complexity where applicable.
-
-### Example
-
-For a digit problem:
+For `PrimeNumberMethod.java`:
 
 ```text
-Number → Extract digit → Process digit → Remove digit → Repeat
+Enter a number: 17
+17 is a Prime Number
 ```
 
----
+For `MultiplicationTableMethod.java`:
 
-## 🎯 Learning Goals
-
-This repository is intended to strengthen:
-
-- Java programming fundamentals
-- Method-based programming
-- Logical thinking
-- Number-based problem solving
-- Object-oriented programming basics
-- Data Structures & Algorithms
-- Time and space complexity analysis
-- Coding interview preparation
+```text
+Enter a number: 5
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+5 x 10 = 50
+```
 
 ---
 
@@ -196,16 +266,52 @@ JAVA-programing/
 
 ---
 
+## 🎯 Learning Goals
+
+The main goal of this repository is to improve:
+
+- Java fundamentals
+- Logical thinking
+- Problem-solving ability
+- Method-based programming
+- OOP concepts
+- DSA fundamentals
+- Coding interview skills
+- Time & space complexity understanding
+
+---
+
+## 🧪 Recommended Practice Approach
+
+1. Read the problem.
+2. Understand the expected output.
+3. Build the logic on paper.
+4. Try coding without looking at the solution.
+5. Test with multiple inputs.
+6. Check edge cases.
+7. Understand the time and space complexity.
+8. Only then compare with the solution.
+
+> **Understand the logic — don't just memorize the code.**
+
+---
+
 ## 👨‍💻 Author
 
 **Neeraj Upadhayay**
 
-GitHub: https://github.com/Neerajupadhayay2004
+GitHub: [@Neerajupadhayay2004](https://github.com/Neerajupadhayay2004)
 
 ---
 
-## 📌 Note
+## 📌 Status
 
-This repository is continuously updated as new Java programming and DSA problems are practiced.
+🚧 **Actively maintained** — new Java programming and DSA problems will be added regularly.
 
-**Keep coding. Keep solving. Keep improving. 💻🔥**
+---
+
+### ⭐ If you're also learning Java
+
+Clone the repository, pick a problem, try it yourself, and then compare your approach with the solution.
+
+**Code → Practice → Understand → Improve. 💻🔥**
