@@ -1,133 +1,211 @@
-# Java LeetCode Solutions
+# Java Programming & DSA Practice 🚀
 
-A collection of **LeetCode problem solutions implemented in Java**, along with beginner Java programming and DSA practice programs.
+A structured collection of **Java programming, number-based problems, methods, OOP practice, DSA, and LeetCode solutions**.
 
-## What This Repository Contains
+This repository is focused on building strong Java fundamentals and problem-solving skills through simple, beginner-friendly programs.
 
-The repository contains individual Java solutions for problems involving:
+## 📚 What This Repository Contains
 
+### Java Fundamentals
+- Variables and data types
+- Input using `Scanner`
+- Conditional statements
+- Loops
+- Methods
+- Number and digit-based problems
+- Basic OOP and classes
+
+### Number-Based Problems
+- GCD and LCM
+- Prime and Perfect numbers
+- Armstrong numbers
+- Digit counting and digit sums
+- Largest digit
+- Even/odd checking
+- Sum of even digits
+- Number reversal
+- Repeated digit problems
+- Fibonacci series
+
+### DSA & LeetCode
 - Arrays and strings
 - Hash maps and sets
 - Two-pointer techniques
 - Linked lists
-- Binary trees and binary search trees
+- Binary trees and BSTs
 - Dynamic programming
 - Backtracking
-- Matrix and grid problems
+- Matrix/grid problems
 - Stack and queue patterns
 - Greedy and optimization techniques
-- Java programming fundamentals
-- Number-based DSA problems
-- Basic OOP and classes
 
-## Java Practice Programs
+---
 
-Beginner/DSA practice programs include:
+## 🧮 Java Practice Programs
 
-- `ReverseNumber.java` — reverse a number using `% 10` and `/ 10`
-- `ReverseAndSum.java` — reverse a number and calculate digit sum
-- `SumOfDigits.java` — calculate the sum of digits
-- `SumOfDigitsMethod.java` — sum of digits using a method
-- `CountDigits.java` — count the number of digits
-- `GCD.java` — find the greatest common divisor of two numbers
-- `LCM.java` — find the least common multiple of two numbers
-- `PerfectNumber.java` — check whether a number is a perfect number
-- `LargestDigit.java` — find the largest digit in a number
-- `EvenOddMethod.java` — check whether a number is even or odd using a method
-- `LargestAmongThreeMethod.java` — find the largest among three numbers using a method
-- `SumEvenDigits.java` — calculate the sum of all even digits
-- `ArmstrongNumber.java` — check whether a number is an Armstrong number
-- `LargestNumber.java` — find the largest among three numbers
-- `FibonacciSeries.java` — generate a Fibonacci series
-- `RepeatedDigits.java` — detect a repeated digit in a number
-- `RepeatedDigits1To100.java` — find numbers from 1 to 100 containing repeated digits
-- `Student.java` — basic class, constructor, method, objects, and user input
+| Program | Description |
+|---|---|
+| `GCD.java` | Find the greatest common divisor of two numbers |
+| `LCM.java` | Find the least common multiple of two numbers |
+| `CountDigits.java` | Count the number of digits in a number |
+| `SumOfDigits.java` | Calculate the sum of digits |
+| `SumOfDigitsMethod.java` | Calculate digit sum using a method |
+| `PerfectNumber.java` | Check whether a number is a perfect number |
+| `PerfectNumberMethod.java` | Check perfect number using a method |
+| `PrimeNumberMethod.java` | Check whether a number is prime using a method |
+| `MultiplicationTableMethod.java` | Print multiplication table using a method |
+| `LargestDigit.java` | Find the largest digit in a number |
+| `EvenOddMethod.java` | Check whether a number is even or odd using a method |
+| `LargestAmongThreeMethod.java` | Find the largest among three numbers using a method |
+| `SumEvenDigits.java` | Calculate the sum of all even digits |
+| `ReverseNumber.java` | Reverse a number using `% 10` and `/ 10` |
+| `ReverseAndSum.java` | Reverse a number and calculate its digit sum |
+| `ArmstrongNumber.java` | Check whether a number is an Armstrong number |
+| `LargestNumber.java` | Find the largest among three numbers |
+| `FibonacciSeries.java` | Generate a Fibonacci series |
+| `RepeatedDigits.java` | Detect repeated digits in a number |
+| `RepeatedDigits1To100.java` | Find numbers from 1 to 100 containing repeated digits |
+| `Student.java` | Basic class, constructor, methods, objects, and user input |
 
-## Example LeetCode Problems
+---
 
-Current solutions include problems such as:
+## 🔢 Methods Practice
 
-- `Add-Two-Numbers.java`
-- `3Sum-Closest.java`
-- `Balanced-Binary-Tree.java`
-- `Binary-Tree-Preorder-Traversal.java`
-- `Climbing-Stairs.java`
-- `Coin-Change.java`
-- `Container-With-Most-Water.java`
-- `Construct-Product-Matrix.java`
-- `Delete-Node-in-a-BST.java`
-- `Equal-Sum-Grid-Partition-I.java`
-- `Generate-Parentheses.java`
-- `Longest-Palindromic-Substring.java`
+The repository also contains programs specifically designed to practice **Java methods**:
 
-The collection can continue to grow as new problems are solved.
+1. Check whether a number is **prime or not** — `PrimeNumberMethod.java`
+2. Print the **multiplication table** of a number — `MultiplicationTableMethod.java`
+3. Check whether a number is a **perfect number** — `PerfectNumberMethod.java`
+4. Check **even or odd** — `EvenOddMethod.java`
+5. Find the **largest among three numbers** — `LargestAmongThreeMethod.java`
+6. Calculate **sum of digits** — `SumOfDigitsMethod.java`
 
-## Requirements
+These programs demonstrate how to move logic from `main()` into reusable methods.
 
-- Java Development Kit (JDK) 8 or newer
-- A terminal or Java-compatible IDE
+---
 
-## Running a Practice Program
+## 💡 Important Digit Logic
 
-Compile and run any standalone program with:
+Most number-based programs use two important operators:
 
-```bash
-javac GCD.java
-java GCD
+- `% 10` → gets the **last digit**
+- `/ 10` → removes the **last digit**
+
+Example:
+
+```java
+int digit = n % 10;
+n = n / 10;
 ```
 
-For example, the same pattern works for all other standalone Java practice programs.
+For example, if `n = 1234`:
 
-## Recommended Practice Workflow
+```text
+1234 % 10 → 4
+1234 / 10 → 123
+```
 
-1. Read the problem before opening the solution.
-2. Understand the logic before memorizing the code.
-3. Identify the role of `% 10` and `/ 10` in digit-based problems.
-4. Try to implement the solution independently.
-5. Test with multiple inputs and edge cases.
-6. Analyze time and space complexity where applicable.
+This pattern is useful for digit count, digit sum, reverse number, largest digit, Armstrong number, and many other problems.
 
-## Learning Goals
+---
+
+## ▶️ How to Run
+
+Make sure Java/JDK is installed.
+
+Compile a program:
+
+```bash
+javac PrimeNumberMethod.java
+```
+
+Run it:
+
+```bash
+java PrimeNumberMethod
+```
+
+The same pattern works for all standalone `.java` files.
+
+---
+
+## 🧠 Recommended Practice Workflow
+
+1. Read the problem carefully.
+2. Understand the logic before looking at the code.
+3. Identify whether a loop, condition, or method is required.
+4. Write the logic yourself.
+5. Test with normal and edge-case inputs.
+6. Check the output.
+7. Analyze time and space complexity where applicable.
+
+### Example
+
+For a digit problem:
+
+```text
+Number → Extract digit → Process digit → Remove digit → Repeat
+```
+
+---
+
+## 🎯 Learning Goals
 
 This repository is intended to strengthen:
 
 - Java programming fundamentals
+- Method-based programming
+- Logical thinking
+- Number-based problem solving
 - Object-oriented programming basics
-- Problem-solving skills
-- Data structures and algorithms
+- Data Structures & Algorithms
 - Time and space complexity analysis
 - Coding interview preparation
 
-## Repository Structure
+---
+
+## 📁 Repository Structure
 
 ```text
 JAVA-programing/
-├── GCD.java                         # GCD of two numbers
-├── LCM.java                         # LCM of two numbers
-├── CountDigits.java                 # Count digits
-├── SumOfDigitsMethod.java           # Sum of digits using method
-├── PerfectNumber.java               # Perfect number check
-├── LargestDigit.java                # Largest digit
-├── EvenOddMethod.java               # Even/odd using method
-├── LargestAmongThreeMethod.java     # Largest of three using method
-├── SumEvenDigits.java               # Sum of even digits
-├── ReverseNumber.java               # Number reversal
-├── ReverseAndSum.java               # Reverse + digit sum
-├── ArmstrongNumber.java             # Armstrong number
-├── LargestNumber.java               # Largest of three
-├── FibonacciSeries.java             # Fibonacci series
-├── RepeatedDigits.java              # Repeated digit detection
-├── RepeatedDigits1To100.java        # Repeated digits from 1 to 100
-├── Student.java                     # Basic OOP practice
-└── README.md                        # Repository documentation
+│
+├── GCD.java
+├── LCM.java
+├── CountDigits.java
+├── SumOfDigits.java
+├── SumOfDigitsMethod.java
+├── PerfectNumber.java
+├── PerfectNumberMethod.java
+├── PrimeNumberMethod.java
+├── MultiplicationTableMethod.java
+├── LargestDigit.java
+├── EvenOddMethod.java
+├── LargestAmongThreeMethod.java
+├── SumEvenDigits.java
+├── ReverseNumber.java
+├── ReverseAndSum.java
+├── ArmstrongNumber.java
+├── LargestNumber.java
+├── FibonacciSeries.java
+├── RepeatedDigits.java
+├── RepeatedDigits1To100.java
+├── Student.java
+│
+└── README.md
 ```
 
-## Author
+---
+
+## 👨‍💻 Author
 
 **Neeraj Upadhayay**
 
 GitHub: https://github.com/Neerajupadhayay2004
 
-## License
+---
 
-No explicit license is currently provided in the repository. Add a license file if you intend to distribute these solutions under specific open-source terms.
+## 📌 Note
+
+This repository is continuously updated as new Java programming and DSA problems are practiced.
+
+**Keep coding. Keep solving. Keep improving. 💻🔥**
