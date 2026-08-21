@@ -1,6 +1,6 @@
 # Java LeetCode Solutions
 
-A collection of **LeetCode problem solutions implemented in Java**, covering common data structures and algorithmic patterns used in coding interviews and competitive programming.
+A collection of **LeetCode problem solutions implemented in Java**, along with beginner Java programming and DSA practice programs.
 
 ## What This Repository Contains
 
@@ -16,8 +16,25 @@ The repository contains individual Java solutions for problems involving:
 - Matrix and grid problems
 - Stack and queue patterns
 - Greedy and optimization techniques
+- Java programming fundamentals
+- Number-based DSA problems
+- Basic OOP and classes
 
-## Example Problems
+## Java Practice Programs
+
+Recent beginner/DSA practice programs include:
+
+- `ReverseNumber.java` — reverse a number using `% 10` and `/ 10`
+- `ReverseAndSum.java` — reverse a number and calculate digit sum
+- `SumOfDigits.java` — calculate the sum of digits
+- `ArmstrongNumber.java` — check whether a number is an Armstrong number
+- `LargestNumber.java` — find the largest among three numbers
+- `FibonacciSeries.java` — generate a Fibonacci series
+- `RepeatedDigits.java` — detect a repeated digit in a number
+- `RepeatedDigits1To100.java` — find numbers from 1 to 100 containing repeated digits
+- `Student.java` — basic class, constructor, method, objects, and user input
+
+## Example LeetCode Problems
 
 Current solutions include problems such as:
 
@@ -41,33 +58,33 @@ The collection can continue to grow as new problems are solved.
 - Java Development Kit (JDK) 8 or newer
 - A terminal or Java-compatible IDE
 
-## Running a Solution
+## Running a Practice Program
 
-Most files are standalone LeetCode-style solutions rather than one single application. Compile and run a solution according to the class defined in that file.
-
-For example:
+Compile and run any standalone program with:
 
 ```bash
-javac Add-Two-Numbers.java
+javac ReverseNumber.java
+java ReverseNumber
 ```
 
-If a solution contains a LeetCode `Solution` class, it is normally intended to be submitted through the LeetCode editor rather than executed as a standalone program.
+For example, the same pattern works for `ArmstrongNumber.java`, `FibonacciSeries.java`, `Student.java`, and the other practice programs.
 
 ## Recommended Practice Workflow
 
-1. Read the problem statement before opening the solution.
-2. Identify the required data structure or algorithmic pattern.
-3. Try to implement the solution independently.
-4. Compare the implementation with the solution in this repository.
-5. Analyze time and space complexity.
-6. Test edge cases before moving to the next problem.
+1. Read the problem before opening the solution.
+2. Understand the logic before memorizing the code.
+3. Identify the role of `% 10` and `/ 10` in digit-based problems.
+4. Try to implement the solution independently.
+5. Test with multiple inputs and edge cases.
+6. Analyze time and space complexity where applicable.
 
 ## Learning Goals
 
 This repository is intended to strengthen:
 
-- Problem-solving skills
 - Java programming fundamentals
+- Object-oriented programming basics
+- Problem-solving skills
 - Data structures and algorithms
 - Time and space complexity analysis
 - Coding interview preparation
@@ -75,9 +92,18 @@ This repository is intended to strengthen:
 ## Repository Structure
 
 ```text
-JAVA-LEET-CODE/
-├── *.java       # Individual LeetCode solutions
-└── README.md    # Repository documentation
+JAVA-programing/
+├── *.java                         # Java practice and LeetCode solutions
+├── ReverseNumber.java             # Number reversal
+├── ReverseAndSum.java             # Reverse + digit sum
+├── SumOfDigits.java               # Digit sum
+├── ArmstrongNumber.java           # Armstrong number
+├── LargestNumber.java             # Largest of three
+├── FibonacciSeries.java           # Fibonacci series
+├── RepeatedDigits.java            # Repeated digit detection
+├── RepeatedDigits1To100.java      # Repeated digits from 1 to 100
+├── Student.java                   # Basic OOP practice
+└── README.md                      # Repository documentation
 ```
 
 ## Author
